@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    flex-direction: column;
+    user-select: none;
+    overflow: hidden;
+
+}
+
+div.wrapper {
+    max-width: 400px;
+    max-height: 600px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    background: white;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #ff66c4;
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1.text {
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+p.image {
+    background: white;
+    border: 20px;
+    border-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+img.logotype {
+    padding-right: 10px;
+}
+
+footer {
+    background: #ff66c4;
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+div.footerWrap p {
+    color: white;
+    user-select: none;
+}
+
+main div.userInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+main div.saldoInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 240px;
+    margin-left: 13px;
+    position: absolute;
+}
+
+main div.saldoInfo input, button.saldoIn, button.saldoOut {
+    margin-right: 5px;
+    height: 50px;
+}
+
+button.saldoIn, button.saldoOut {
+    width: 60px;
+}
+
+div.saldoInfo input {
+    font-size: 18px;
+}
+
+div.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+main p.name {
+    font-weight: bolder;
+}
+
+div.logoutlink {
+    background: #ff66c4;
+    align-self: center;
+    margin-top: 350px;
+    padding: 8px 13px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+div.logoutlink:hover {
+    background: #fd43b6;
+}
+
+div.logoutlink:active {
+    background: #f721a5;
+}
+
+div.logoutlink a {
+    color: white;
+    text-decoration: none;
+}
